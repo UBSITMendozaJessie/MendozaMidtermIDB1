@@ -73,3 +73,21 @@ body {
     font-family: Helvetica, cursive;
     color: #f1e452;
   }
+
+  .card-img-top {
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.card-title a:link {
+    font-size: 30px;
+    background-color: transparent;
+    color: #000000;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
