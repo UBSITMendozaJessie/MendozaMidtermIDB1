@@ -1,3 +1,5 @@
+import { Category } from "./categories";
+
 export const CATEGORY: Category[]=[
     {   id: 1,
         name: 'Tomas',
