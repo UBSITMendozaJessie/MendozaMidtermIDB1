@@ -32,21 +32,18 @@ export const CATEGORY: Category[]=[
   }
   ]*/
 
-  export class StudentlistComponent {
-    student: Student={
-      id: 201012321,
-      fname: 'Jessie',
-      lname: 'Mendoza',
-      dateEnrolled: new Date(2022, 1, 18),
-      course: 'BSIT',
-      contactNum: '0919232124',
-      sPic: 'https://i.pinimg.com/564x/d0/a6/b2/d0a6b2eaada593ad7d43e67abd686059.jpg'
+  export class CategorylistComponent {
+    category: Category={
+      id: 1,
+      name: 'Jessie',
+      description: 'Mendoza',
+      
     };
   
-    students=STUDENTS;
-    selectedStudent?: Student;
+    categories=CATEGORY;
+    selectedStudent?: Category;
   
-    onSelect(student: Student): void{
+    onSelect(student: Category): void{
       this.selectedStudent = student; 
     }
   }
